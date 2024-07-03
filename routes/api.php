@@ -5,7 +5,7 @@ use App\Http\Controllers\LivroController;
 use App\Http\Controllers\VersiculoController;
 
 Route::get('/',function(){
-  return '<h1>Teste</h1>';
+  return '<h1>Hello World</h1>';
 });
 
 Route::prefix('palavra')->group(function() {
